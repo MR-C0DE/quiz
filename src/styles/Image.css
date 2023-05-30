@@ -1,0 +1,44 @@
+:root{
+    --size: 23rem;
+}
+
+.image{
+    position: absolute;
+    font-family:calibri;
+    width: var(--size);
+    z-index: 4;
+    bottom: 6rem;
+    left: 3rem;
+    box-shadow: 0px 0px 15px 1px rgb(68, 68, 67);
+}
+
+.panel{
+   width: var(--size);
+   height:20rem;
+   background-image: url('./../image/rfq.JFIF');
+   background-repeat: no-repeat;
+   background-size: 30rem;
+   background-position: center;
+}
+.moyen_age{
+    background-image: url('./../image/img/moyen_age.png');
+}
+.napoleon{
+    background-image: url('./../image/img/napoleon.png');
+}
+.peste{
+    background-image: url('./../image/img/peste.png');
+}
+.homme{
+    background-image: url('./../image/img/homme.png');
+}
+.coureurs{
+    background-image: url('./../image/img/coureurs.png');
+}
+.description{
+    background-color: black;
+    color: orange;
+    padding: .6rem;
+    font-weight: 600;
+    font-style: italic;
+}

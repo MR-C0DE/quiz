@@ -1,0 +1,20 @@
+.corps{
+    background-color: orange;
+    max-width: 55rem;
+    height: 35rem;
+    margin: 4.8rem auto;
+    box-shadow: 0px 0px 15px 1px rgb(175, 114, 2);
+    position: relative;
+
+}
+
+/*Sous Cprps*/
+
+.sous-corps{
+    
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    width: 40rem;
+    height: 35rem;
+}
